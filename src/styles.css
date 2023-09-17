@@ -1,0 +1,56 @@
+.feed {
+  margin: 0;
+  padding: 0;
+}
+
+.theFeed h1 {
+  text-align: center;
+}
+
+.theFeed h3 {
+  text-align: center;
+}
+
+.feed li {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 3px #555, 2px 3px 5px #aeaeae;
+  display: flex;
+  align-items: flex-start; 
+}
+
+.title-container {
+  display: flex;
+  width: 100%;
+ 
+}
+
+.title-image {
+  width: 200px;
+  margin: 10%; 
+}
+
+.title-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.article-title {
+  font-size: 1.2em;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold; 
+}
+
+.title-content p {
+  font-size: 0.9em;
+  margin-top: 5px; 
+}
+
